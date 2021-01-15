@@ -1,0 +1,97 @@
+:root {
+    display: border-box;
+}
+body {
+    
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+#headings {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    order: 1;
+}
+h2 {
+    order: 2;
+    position: relative;
+border: 1px dotted black;
+left: 200px;
+top: 17px;
+}
+#upperContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+padding: 0px;
+margin: 0px;
+}
+
+.userBox {
+    background-color: blue;
+    position: relative;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+}
+.userImage {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+.userImage img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.userInfo {
+    position: absolute;
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+}
+.progressBar {
+    position: absolute;
+    border: 1px solid black;
+    height: 30px;
+    width: 200px;
+}
+.bookImage {
+    position: relative;
+    height: 250px;
+    width: 150px;
+}
+.bookImage img {
+    height: 250px;
+    width: 150px;
+}
+.taskList {
+    background-color: orange;
+    position: relative;
+    border: 1px solid black;
+    height: 350px;
+    width: 250px;
+}
+#lowerContainer {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.placeHolder1 {
+    border: 1px dotted black;
+    height: 150px;
+    width: 250px;
+}
+.placeHolder2 {
+    border: 1px dotted black;
+    height: 150px;
+    width: 250px;
+}
