@@ -5,6 +5,7 @@ body {
     
     display: flex;
     flex-direction: column;
+    /* align-content: space-between; */
     align-content: space-between;
 }
 #headings {
