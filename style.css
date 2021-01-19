@@ -17,7 +17,6 @@ body {
 }
 h1 {
   color: red;
-
 }
 h2 {
   order: 2;
@@ -34,7 +33,7 @@ h2 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   height: 800px;
   border: 1px dotted black;
   top: -70px;
@@ -43,21 +42,21 @@ h2 {
 .bookImage3 {
   position: relative;
   display: flex;
-  /* border: 1px solid black; */
   flex-direction: column;
   height: 350px;
   width: 250px;
-  transition: transform .4s;
+  transition: transform 0.4s;
   margin: 0;
   z-index: 0;
-  padding: 3px;
+  margin: 3px;
+  border: 1px solid black;
 }
 .bookImage3:hover {
   transform: scale(1.5);
   z-index: 1;
- }
+}
 
- .bookImage3 img {
+.bookImage3 img {
   height: 350px;
   width: 250px;
 }
@@ -67,37 +66,37 @@ h2 {
 }
 
 .bookImage {
+  border: 1px solid black;
   position: relative;
   height: 350px;
   width: 250px;
-  transition: transform .4s;
+  transition: transform 0.4s;
   margin: 0;
-  padding: 3px;
+  margin: 3px;
   z-index: 0;
 }
 
 .bookImage:hover {
   transform: scale(1.5);
   z-index: 1;
- }
+}
 
 .bookImage2 {
   position: relative;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: 350px;
   width: 250px;
-  transition: transform .4s;
+  transition: transform 0.4s;
   margin: 0;
   z-index: 0;
-  padding: 3px;
+  margin: 3px;
 }
 .bookImage2:hover {
   transform: scale(1.5);
   z-index: 1;
- 
- }
+}
 
- .bookImage2 img {
+.bookImage2 img {
   height: 350px;
   width: 250px;
 }
@@ -113,7 +112,7 @@ h2 {
   height: 60px;
   width: 800px;
   left: 355px;
-  top: 55px; 
+  top: 55px;
   border-radius: 10px;
 }
 .progress {
@@ -136,7 +135,6 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 .placeHolder1 {
   border: 1px dotted black;
